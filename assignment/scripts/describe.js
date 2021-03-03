@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to 'Dane'
-// We then make an if...else statement and check if the name is equal to Mary
+// We then make an if...else statement and check if the name is equal (exact match only) to Mary
 // If the name is not equal to 'Mary' we console.log 'How do you do?'
 // If the name is equal to 'Mary' we console.log 'Hi, Mary'
 
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We make a variable and call it secret
+// We make a variable called code and set it to 123
+// We check if code is equal to 123. code is equal to 123,
+// So then we run console.log secret and get super
 
 //CODE
 /*
