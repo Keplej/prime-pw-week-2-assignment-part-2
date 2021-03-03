@@ -156,7 +156,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//FIX - || - the instructions say and not or 
+//FIX - || - the instructions say and not or
 //The correct line should be if (temp > 39 && time >= 4)
 
 if (temp > 39 || time >= 4) {
@@ -171,6 +171,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - <= - The instructions say > not <=
+//The correct line should be >
+//FIX - minAge <= age - The instructions say age is greater than minAge not minAge is greater than age
+//The correct line should be age > minAge
 
 if(minAge <= age) {
   console.log('no entry');
