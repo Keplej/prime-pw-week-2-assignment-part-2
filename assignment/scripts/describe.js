@@ -156,6 +156,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - || - the instructions say and not or 
+//The correct line should be if (temp > 39 && time >= 4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
