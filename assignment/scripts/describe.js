@@ -70,13 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We set up three conditional variables. First conditional is, isStudent equal to true, Second conditional is, age is equal to 34
+// Set up three conditional variables. First conditional is, isStudent equal to true, Second conditional is, age is equal to 34
 // and the third conditonal zip is equal to 55407.
-// Now we check if isStudent is true  and if zip is greater then 80000 use the Logical Operator of && to check of both of these values are truthy.
-// Which its not. So now we move down to the next else if statement. Now we check if the isStudent is truth and if age is less than 30. We have the
-// logical Operator of || that checks if the two values are true or false. Both the isStudent and age are false
-// We now check if isStudent true which it is
-// So we console.log 'Welcome to Prime!'
+// Now check if isStudent is true  and if zip is greater then 80000 use the Logical Operator of && to check of both of these values are truthy.
+// Which its not. Move down to the next else if statement. Check if the isStudent is truth and if age is less than 30. Have the
+// logical Operator of || that checks if the two values are true or false. Both the isStudent and age are false.
+// Check if isStudent true which it is
+// So console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -133,6 +133,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - colorOne = 'red'; the instructions say it should be blue.
+// The correct line should be colorOne = 'blue';
+//FIX - colorTwo = 'blue'; the instructions say it should be red.
+// The correct line should be colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
