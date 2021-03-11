@@ -30,6 +30,7 @@ if (number >= 2) {
 // We then make an if...else statement and check if the name is equal (exact match only) to Mary
 // If the name is not equal to 'Mary' we console.log 'How do you do?'
 // If the name is equal to 'Mary' we console.log 'Hi, Mary'
+// The console.log that will show up is 'How do you do?'
 
 //CODE
 /*
@@ -49,6 +50,7 @@ if (name === 'Mary') {
 // We make a variable called code and set it to 123
 // We check if code is equal to 123. code is equal to 123,
 // So then we run console.log secret and get super
+// The console.log that will show up is 'super'
 
 //CODE
 /*
@@ -138,6 +140,9 @@ if (number >= 2) {
 // The correct line should be colorOne = 'blue';
 //FIX - colorTwo = 'blue'; the instructions say it should be red.
 // The correct line should be colorTwo = 'red';
+// FIX - colorOne is the only one set to purple. The instructions say that colorOne and colorTwo should be set to purple if mix === true
+// The correct line should be colorOne = 'purple';
+// colorTwo = 'purple';
 
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -165,17 +170,17 @@ if (temp > 39 || time >= 4) {
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than minAge
-// -- they are, so we console.log 'enter'.
+// We check if age is greater than or equal to minAge
+// -- it is so we console.log 'enter'.
 
 /*
 let age = 21;
 const minAge = 21;
 
-//FIX - <= - The instructions say > not <=
-//The correct line should be >
-//FIX - minAge <= age - The instructions say age is greater than minAge not minAge is greater than age
-//The correct line should be age > minAge
+//FIX - <= - The instructions say => not <=
+//The correct line should be =>
+//FIX - minAge <= age - The instructions say age is greater or equal to minAge not minAge is greater than age
+//The correct line should be age => minAge
 
 if(minAge <= age) {
   console.log('no entry');
